@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | HTMLs Historia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script src="/scripts/gotourl.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-main">Skip to main content</a>
+
+    <nav class="top-nav">
+        <h1 class="nav-title">HTMLs Historia</h1>
+        <div class="nav-links">
+            <ul>
+                <li onclick="goToUrl('/index.html')"><a href="/index.html">Home</a></li>
+                <li onclick="goToUrl('/dom.html')"><a href="/dom.html">DOM</a></li>
+                <li onclick="goToUrl('/lagar.html')"><a href="/lagar.html">Lagar <span class="hide-on-phone">& Bestämmelser</span></a></li>
+                <li onclick="goToUrl('/kontakt.html')"><a href="/kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content" id="main-content">
+        <article id="lagar">
+            <h1>Vad är internetlagstiftning?</h1>
+            <p>Internetlagstiftning, som ibland kallas cyberlagstiftning, syftar på de rättsprinciper och förordningar som styr användandet av internet. Internetlagar är inte alltid tydliga och okomplicerade eftersom:</p>
+            <ul class="article-list">
+                <li class="text-list-item">
+                    <p>internet är relativt nytt och fortsätter att utvecklas, vilket innebär att de juridiska ramarna kan ha svårt att hänga med.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>internetlagar införlivar och tillämpar ofta principer från olika juridiska fält – till exempel från sekretesslagar eller avtalsrätt – som fanns före internet och som kan vara öppna för tolkningar.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>det finns ingen enstaka lag som reglerar integriteten på internet. Istället är det ett lapptäcke av federal och delstatlig lagstiftning som är tillämpliga. Dessutom kan olika jurisdiktioner runt om i världen ha olika tolkningar av hur man ska tillämpa integritetslagstiftning för internet.</p>
+                </li>
+            </ul>
+            <p>Europeiska unionen har en övergripande dataskyddslag som kallas GDPR – General Data Protection Regulation. USA har däremot ingen central dataskyddslag för internet på federal nivå. Istället finns det flera vertikalt inriktade federala dataskyddslagar och flera konsumentinriktade dataskyddslagar inom de olika delstaterna. Denna översikt tittar på några av de viktigaste lagarna för datasäkerhet på internet som du bör känna till.</p>
+        </article>
+
+        <article>
+            <h1>Privacy Act från 1974</h1>
+            <p>Trots att den föregick internet kan USA:s sekretesslag, Privacy Act, från 1974 sägas vara grunden för många lagar som reglerar dataskydd och internetsekretess i USA. Lagen antogs med anledning av den mängd personuppgifter som fanns i databaser hos amerikanska myndigheter. Lagen omfattade:</p>
+            <ul class="article-list">
+                <li class="text-list-item">
+                    <p>Rätten för medborgare i USA att få tillgång till uppgifter som innehas av myndigheter och rätten att få en kopia av dessa uppgifter.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Medborgarnas rätt att korrigera eventuella fel i informationen.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Myndigheters ansvar att inte inhämta mer information än vad som är relevant och nödvändigt för att de ska kunna uppnå sina syften.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Behovsenlig begränsning av åtkomst till data.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Begränsning av informationsdelning mellan federala (och icke-federala) myndigheter – dvs. detta är endast tillåtet under vissa förutsättningar.</p>
+                </li>
+            </ul>
+            <p>När internet uppfanns ändrades dock definitionen av integritet och det blev nödvändigt att anta nya datasäkerhetslagar gällande elektronisk kommunikation.</p>
+        </article>
+
+        <article>
+            <h1>Federal Trade Commission Act</h1>
+            <p>Med Federal Trade Commission Act (lagen om inrättande av en federal konkurrensmyndighet) från 1914 grundades USA:s Federal Trade Commission som tillkom för att förbjuda konkurrenshämmande affärsmetoder och orättvisa handlingar eller metoder som påverkar handeln.</p>
+            <p>Även om FTC inte uttryckligen reglerar vilken information som ska ingå i sekretesspolicyer för webbplatser, använder den idag sina befogenheter för att utfärda förordningar, upprätthålla sekretesslagar och skydda konsumenter. FTC kan till exempel vidta åtgärder mot organisationer som:</p>
+            <ul class="article-list">
+                <li class="text-list-item">
+                    <p>inte följer den sekretesspolicy de publicerat.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>överför personlig information på ett sätt som inte beskrivs korrekt i en sekretesspolicy.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>gör felaktiga utfästelser om sekretess och datasäkerhet till konsumenter och i sekretesspolicyer. </p>
+                </li>
+                <li class="text-list-item">
+                    <p>inte implementerar och underhåller rimliga datasäkerhetsåtgärder.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>inte följer de principer för självreglering som kan gälla för organisationens bransch.</p>
+                </li>
+            </ul>
+            <p>FTC spelar en roll i arbetet med att reglera internet, inte minst för att den undersöker vilseledande framställningar från ledande teknik- och sociala medieföretag om integriteten för de data om konsumenter som de samlar in. Till exempel har FTC tidigare undersökt klagomål mot Facebook gällande dess användning av kunddata.</p>
+        </article>
+
+        <article>
+            <h1>Children’s Online Privacy Protection Act</h1>
+            <p>Children's Online Privacy Protection Act (COPPA), lagen om integritetsskydd för barn på internet, från 1998 är en federal lag i USA. Målet med den är att ge föräldrar kontroll över vilken information som samlas in från deras barn på internet. COPPA gäller för operatörer av kommersiella webbplatser och internettjänster (inklusive mobilappar och Internet of Things-enheter) som riktar sig till barn under 13 år och som samlar in personlig information från barn.</p>
+            <p>Några av de viktigaste kraven i COPPA är:</p>
+            <ul class="article-list">
+                <li class="text-list-item">
+                    <p>Webbplatser, appar och onlineverktyg som riktar sig till barn under 13 år måste meddela barnens föräldrar och få deras samtycke innan de samlar in information från barn.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>De måste ha en tydlig och heltäckande integritetspolicy.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>De måste se till att all information de får från barn är säker och skyddad.</p>
+                </li>
+            </ul>
+            <p>Lagen härstammar från början av internet-eran men har blivit särskilt relevant i dessa dagar i och med sociala medier och automatiserad annonsering. En nyckelfråga för COPPA är i vilken utsträckning en webbplats 'riktas' till barn under 13 år. I USA analyserar Federal Trade Commission webbplatser baserat på olika kriterier, till exempel:</p>
+            <ul class="article-list">
+                <li class="text-list-item">
+                    <p>Ämnen</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Innehåll</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Användning av animerade karaktärer</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Användning av aktiviteter eller belöningar inriktade mot barn</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Ålder på modeller</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Förekomst av barnkändisar eller kändisar som uppskattas av barn</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Annonsering på webbplatsen som är riktad till barn</p>
+                </li>
+            </ul>
+            <p>Vissa webbplatser och webbtjänster tillämpar åldersgränser för användare, så de behöver inte följa COPPA-reglerna. Många sociala nätverk, vars affärsmodell bygger på att samla in och tjäna pengar på användardata, har till exempel satt 13 som lägsta ålder för registrerade användare.</p>
+            <p>En annan fråga som aktualiseras av COPPA är vad som utgör ”insamling av personlig information”. Att samla namn, adresser och fotografier faller under denna kategori. Mindre uppenbara exempel är beteendeannonser – det vill säga annonser som spårar användarnas beteende över webbplatser och appar – som också utgör insamling av personlig information enligt COPPA. Även om dessa beteendeannonser tillhandahålls av en tredjepartsleverantör är det webbplatsägaren som är ansvarig för dem, om de visas på en webbplats som riktar sig till barn. Med tanke på att beteendeannonser utgör en så stor del av internets ekosystem har detta betydande konsekvenser för webbplatser riktade till barn.</p>
+        </article>
+
+        <article>
+            <h1>Kaliforniens Consumer Privacy Act</h1>
+            <p>Kaliforniens Consumer Privacy Act (lagen om dataskydd för konsumenter) eller CCPA antogs 2018. Målsättningen med den var att adressera frågan om integritet för konsumenter i Kalifornien genom att utvidga konsumentdataskyddet till internet. CCPA anses vara den mest omfattande internet-inriktade dataskyddslagstiftningen i USA och den har ingen motsvarighet på federal nivå.</p>
+            <p>Liksom EU:s dataskyddsförordning GDPR ger den konsumenterna rätt att få tillgång till sina data, samt rätten att när som helst få data raderad och välja bort databehandling. CCPA skiljer sig dock från GDPR genom att GDPR ger konsumenterna rätt att få felaktiga personuppgifter korrigerade, vilket CCPA inte gör. Enligt GDPR krävs också uttryckligt samtycke vid den tidpunkt då konsumenter tillhandahåller sina uppgifter. CCPA däremot säger bara att det på webbplatser ska finnas en sekretessanmärkning som informerar konsumenterna om att de har rätt att välja bort insamling av vissa data. Här är några andra bestämmelser i CCPA:</p>
+            <ul class="article-list">
+                <li class="text-list-item">
+                    <p>Konsumenter har rätt att få tillgång till sina uppgifter genom en begäran om åtkomst för den registrerade.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Företag kan inte sälja konsumenternas personliga information utan att tillhandahålla ett webbmeddelande och ge dem en möjlighet att välja bort detta.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Konsumenter har en begränsad rätt att stämma om de utsätts för dataintrång.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Delstatens Attorney General (i princip dess chefsjurist) har en mer allmän kapacitet att stämma företag på uppdrag av invånare.</p>
+                </li>
+            </ul>
+            <p>CCPA har en bred definition av vad som utgör personlig information: 'information som identifierar, är relaterad till, beskriver, kan associeras med, eller rimligen kan kopplas, direkt eller indirekt, till en viss konsument eller ett visst hushåll'. Detta liknar GDPR:s vidsträckta syn på personuppgifter.</p>
+        </article>
+
+        <article>
+            <h1>Dataskyddsförordningen (GDPR)</h1>
+            <p>EU:s allmänna dataskyddsförordning – GDPR – trädde i kraft 2018. Den är ett juridiskt ramverk som anger riktlinjer för insamling och behandling av personuppgifter från personer som bor inom EU. GDPR gäller oavsett var webbplatser är baserade, vilket innebär att den ska följas av alla webbplatser som drar till sig europeiska besökare. GDPR anses vara en av de strängaste lagarna för datasäkerhet som finns i världen.</p>
+            <p>GDPR anger att användare på webbplatser måste meddelas om vilka data en webbplats samlar in och användarna ska uttryckligen ge sitt samtycke till denna datainsamling. Detta är anledningen till att många webbplatser har popup-fönster som ber användare att godkänna att cookies – små filer som innehåller personlig information såsom webbplatsinställningar och inställningar – samlas in.</p>
+            <p>Här är några viktiga punkter i GDPR:</p>
+            <ul class="article-list">
+                <li class="text-list-item">
+                    <p>Konsumenter har rätt att veta hur deras data samlas in och används.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Konsumenter ska kunna fråga webbplatser vilken information som har samlats in om dem (utan att behöva betala någon avgift).</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Om det finns felaktigheter i konsumenternas data kan de begära att felaktigheterna rättas till.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Konsumenter kan begära att deras data raderas från register.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Konsumenter har rätt att vägra databehandling, till exempel i marknadsföringssyfte.</p>
+                </li>
+                <li class="text-list-item">
+                    <p>Webbplatser måste meddela användare om deras data komprometterats eller berörts av dataintrång.</p>
+                </li>
+            </ul>
+            <p>Europeiska kommissionen har en detaljerad förklaring av GDPR på sin officiella webbplats. I några uppmärksammade fall har företag dömts att betala stora bötesbelopp för överträdelser av reglerna i GDPR, till exempel när Google fick böter på 57 miljoner dollar på grund av att viktig information var dold när användare konfigurerade nya Android-telefoner. Detta gjorde att användarna inte visste vilka datainsamlingspolicyer de samtyckte till. I ett annat fall fick British Airways böter på 28 miljoner dollar när 500 000 kundbokningsposter stals i ett dataintrång.</p>
+        </article>
+
+        <article>
+            <h1>Lagen om portabilitet och ansvarsskyldighet för sjukförsäkringar i USA</h1>
+            <p>USA:s lag om portabilitet och ansvarsskyldighet för sjukförsäkringar (Health Insurance Portability and Accountability Act, HIPAA) från 1996 är en federal lag med inriktning på reglering av sjukförsäkringar och innehåller avsnitt om datasekretess och -säkerhet. Den hindrar vårdgivare, företag och människor som samarbetar med dem från att avslöja konsumenternas hälsoinformation utan deras tillstånd.</p>
+            <p>När människor pratar om HIPAA syftar de vanligtvis på dess "Privacy Rule", sekretessregelstadgan som antogs 2003. Denna regel infördes delvis på grund av att den amerikanska kongressen uppmärksammat att internet gjort det mer sannolikt med integritetskränkningar inom sjukvård. HIPAA:s sekretessregel ger konsumenter rätt att styra yppandet av sin hälsoinformation, så att de kan berätta för sin vårdgivare vad de får dela med sig av.</p>
+            <p>HIPAA skyddar dock endast hälso- och sjukvårdsinformation som finns hos specifika typer av vårdgivare. Hälsoinformation på träningsmätare (t.ex. GPS-klockor) täcks till exempel normalt inte av HIPAA. HIPAA omfattar inte heller genetiska data som du anger på webbplatser som Ancestry.com. Denna information kan skyddas av annan lagstiftning eller av de sekretessavtal som krävs för många appar, men den skyddas inte av HIPAA.</p>
+        </article>
+
+        <article>
+            <h1>Gramm-Leach-Bliley-lagen</h1>
+            <p>Gramm-Leach-Bliley-lagen (GLBA) – som även kallas lagen om modernisering av finansiella tjänster – från 1999 är en bank- och finanslag med inslag av datasekretess och -säkerhet. Dess skydd av personlig information bygger på tidigare lagar om konsumenters finansiella data, till exempel kreditupplysningslagen Fair Credit Reporting Act (FCRA).</p>
+            <p>GLBA skyddar i huvudsak icke-offentlig personlig information, som definieras som all "information som samlas in om en individ i samband med tillhandahållande av en finansiell produkt eller tjänst, såvida den informationen inte på annat sätt är offentligt tillgänglig". Hänvisningen till "offentligt tillgänglig" syftar på fastighetsregister eller viss bolåneinformation som kan vara offentlig.</p>
+            <p>Enligt GLBA:s "Safeguards Rule" (skyddsregel) krävs att datainsamlare skyddar personlig information och skapar ändamålsenligt dimensionerade datasäkerhetssystem. Stora nationella banker behöver med andra ord ha mer sofistikerade skyddsåtgärder än till exempel en lokal kreditkassa.</p>
+            <p>Regeln kräver att företag kör regelbundna tester. Dessutom måste de implementera säkerhetsåtgärder i sin dagliga verksamhet, till exempel att köra bakgrundskontroller av medarbetare och upprätta handlingsplaner för dataintrång som förberedelse för eventuella attacker.</p>
+            <p>GLBA gör det olagligt att använda falska förevändningar. Detta syftar på försök att få obehörig åtkomst till icke-offentlig information. Termen förknippas ofta med social manipulation, till exempel om någon utger sig för att vara en chef, eller för att vara från polisen eller åklagarmyndigheten, för att komma över information. Ett annat exempel på användning av falska förevändningar är nätfiskebedrägerier, som ibland innebär att man skapar falska webbplatser som lurar människor att dela med sig av privat information. GLBA kräver att finansinstitut i sina säkerhetsplaner inkluderar åtgärder som förhindrar användning av falska förevändningar.</p>
+
+        </article>
+
+        <article>
+            <h1>Integritetslagstiftning för internet: sammanfattning</h1>
+            <p>Olika jurisdiktioner runt om i världen har sin egen lagstiftning för integritet och datasäkerhet på internet. Brasilien har till exempel "Lei Geral de Proteção de Dados" (LGPD) och Kanada har "Consumer Privacy Protection Act" (CPPA) som båda omfattar i stort sett samma saker som EU:s GDPR och Kaliforniens CCPA.</p>
+            <p>I USA finns det ingen enstaka omfattande federal lag som reglerar dataskydd. Lagstiftningen som reglerar internet är ett komplext lapptäcke av mer eller mindre sektorspecifika lagar, bland annat lagar och förordningar som reglerar telekommunikation, information inom sjukvården, kreditinformation, finansinstitut och marknadsföring. </p>
+            <p>Ett av de bästa sätten att skydda din integritet och datasäkerhet på internet är att använda en heltäckande antiviruslösning. En produkt som Kaspersky Total Security blockerar vanliga och komplexa hot som virus, skadlig programvara, utpressningsprogram, spionappar och de senaste aktiviteterna från hackare.x§x§</p>
+        </article>
+
+    </main>
+
+    <nav class="bottom-nav">
+        <div class="bottom-nav-wrapper">
+            <div class="bottom-list-wrapper">
+                <h1>Navigation</h1>
+                <ul class="bottom-list">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/dom.html">DOM</a></li>
+                    <li><a href="/lagar.html">Lagar & Bestämmelser</a></li>
+                    <li><a href="/kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="bottom-list-wrapper">
+                <h1>Kontakt</h1>
+                <ul class="bottom-list">
+                    <li><p>Telefon: +46790357075</p></li> <!--Fake telefonnummer-->
+                    <li><p>Address: Nacka Strand, Cylindervägen 131 26</p></li>
+                    <li><a href="/kontakt.html">Gå till kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="bottom-list-wrapper bottom-logo-wrapper">
+                <h1 class="bottom-logo">HTMLs Historia</h1>
+            </div>
+        </div>
+    </nav>
+
+</body>
+</html>

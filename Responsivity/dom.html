@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | HTMLs Historia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script src="/scripts/gotourl.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#main-content" class="skip-main">Skip to main content</a>
+
+    <nav class="top-nav">
+        <h1 class="nav-title">HTMLs Historia</h1>
+        <div class="nav-links">
+            <ul>
+                <li onclick="goToUrl('/index.html')"><a href="/index.html">Home</a></li>
+                <li onclick="goToUrl('/dom.html')"><a href="/dom.html">DOM</a></li>
+                <li onclick="goToUrl('/lagar.html')"><a href="/lagar.html">Lagar<span class="hide-on-phone"> & Bestämmelser</span></a></li>
+                <li onclick="goToUrl('/kontakt.html')"><a href="/kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content" id="main-content">
+        <article id="dom">
+            <h1>DOM</h1>
+            <p>DOM står för Document Object Model och HTML DOM är en standardiserad modell där en webbsidas alla element representeras som objekt. Det tillåts att manipulera objekten (elementen) och nå dess egenskaper med hjälp av metoder och “events”. Webbläsaren skapar en modell när en sida laddas som kan representeras som ett träd av html-element. Roten av trädet, det element som ligger i grunden (eller toppen) är &#60;html&#62;. Trädet följer sedan strukturen vi definierat i html-sidan.</p>
+            <div class="img-wrapper"><img src="img/dom.png" alt="Image of Document Object Model"></div>
+        </article>
+
+    </main>
+
+    <nav class="bottom-nav">
+        <div class="bottom-nav-wrapper">
+            <div class="bottom-list-wrapper">
+                <h1>Navigation</h1>
+                <ul class="bottom-list">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/dom.html">DOM</a></li>
+                    <li><a href="/lagar.html">Lagar & Bestämmelser</a></li>
+                    <li><a href="/kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="bottom-list-wrapper">
+                <h1>Kontakt</h1>
+                <ul class="bottom-list">
+                    <li><p>Telefon: +46790357075</p></li> <!--Fake telefonnummer-->
+                    <li><p>Address: Nacka Strand, Cylindervägen 131 26</p></li>
+                    <li><a href="/kontakt.html">Gå till kontakt</a></li>
+                </ul>
+            </div>
+
+            <div class="bottom-list-wrapper bottom-logo-wrapper">
+                <h1 class="bottom-logo">HTMLs Historia</h1>
+            </div>
+        </div>
+    </nav>
+
+</body>
+</html>
